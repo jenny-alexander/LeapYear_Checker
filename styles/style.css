@@ -1,17 +1,22 @@
 body {
     background-color: azure;
     font-family: "American Typewriter";
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .container {
     display:grid;
-    grid-template-columns: 120px 80px 100px;
+    grid-template-columns: 170px 80px 100px;
     grid-gap: 6px;
 }
 
-label {
+label p {
     grid-column: 1 / 2;
+}
+
+p {
+    border: 1px solid grey;
+    padding-left: 2px;
 }
 
 input {
@@ -22,3 +27,5 @@ input {
 button {
     grid-column: 3 / 3;
 }
+
+
